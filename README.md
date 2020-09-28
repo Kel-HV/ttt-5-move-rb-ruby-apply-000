@@ -146,7 +146,7 @@ Once you have the tests passing, move on to part II.
 Open up `bin/move`. We're ready to code the executable portion of this program.
 
 1. Our program should first welcome the player by outputting a friendly message to the terminal: "Welcome to Tic Tac Toe!".
-2. Next, establish the starting state of the game, i.e. the empty board. Create a new board by setting a variable `board` equal to instantiating a new array with 9 elements, each of which is a blank space, `" "`.  
+2. Next, establish the starting state of the game, i.e. the empty board. Create a new board by setting a variable `board` equal to instantiating a new array with 9 elements, each of which is a blank space, "` "`.  
 3. Now, ask the user for input by outputting "Where would you like to go?" to the terminal.
 4. We need to store the user's input. Use `gets.strip` to store their input to a variable, `input`.
 5. Now we want to convert the user's input to an array index using our `#input_to_index` method and store this as the variable `index`.
